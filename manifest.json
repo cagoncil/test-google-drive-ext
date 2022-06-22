@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Google Drive: Dark Mode",
+    "version": "1.0",
+    "description": "This Chrome Extension converts the Google Drive default theme to dark mode.",
+    "content_scripts": [
+        {
+          "matches": [
+                "https://docs.google.com/*"
+            ],
+          "js": ["./main.js"]
+        }
+      ],
+    "icons": {
+
+    }
+  }
